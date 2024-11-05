@@ -1,0 +1,76 @@
+IP - INTERNET PROTOCOL (IANA --> RIR --> ISP --> local)
+
+CLASSES OF IP:
+=============
+
+class A --> 0-127    ---> 0.0.0.0 TO 127.255.255.255  --> /8   --> LARGE NETWORKS/MORE HOSTS
+
+class B --> 128-191   --> 128.0.0.0 TO 191.255.255.255  --> /16  --> MEDIUM NETWORKS
+
+class C --> 192-223   --> 192.0.0.0 TO 223.255.255.255  --> /24  --> SMALLER NETWORKS
+ 
+class D --> 224-239   --> 224.0.0.0 TO 239.255.255.255   ----> MULTICAST
+
+class E --> 240-255   --> 240.0.0.0 TO 255.255.255.255  --> MULTICAST
+
+
+
+
+
+0   --> 0.0.0.0         ---> 00000000
+255 --> 255.255.255.255 ---> 11111111  --> 256*256*256*256 ==> 4million
+IPV4 --> 8bit (2^8 = 256)
+1octet - 8bits
+4octets - 32bits
+
+
+
+43.225.167.36
+NETWORK --> 43.225.167
+HOST    --> 36
+
+=========================
+
+SSH to remote server:
+==================
+Host
+User
+Keyfile
+Command --->  ssh -i <keyfile> <user>@<host>
+
+==========================
+key file formats:
+=============
+pem  ---> privacy enhanced mail
+ppk  ---> putty private key
+
+
+=============================
+VPC
+Subnet
+Route table
+Internet Gateway 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
